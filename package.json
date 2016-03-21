@@ -1,0 +1,15 @@
+{
+  "name": "charlesoconorsite",
+  "version": "1.0.0",
+  "description": "Personal Website for Charles OConor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.eecs.umich.edu:coconor/personalWebsite.git"
+  },
+  "author": "Charles OConor <coconor@umich.edu>",
+  "license": "UNLICENSED"
+}

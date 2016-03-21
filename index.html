@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Charles OConor Personal Website</title>
+  <meta name="description" content="Charles OConor Personal Website<">
+  <meta name="author" content="Charles OConor">
+
+  <!-- Angular js --> 
+  <script src="node_modules/angular/angular.js"></script>
+  <!-- UI Router --> 
+  <script src="node_modules/ui-router/release/angular-ui-router.min.js"></script>
+
+
+  <!-- BootStrap -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body ng-app="personalApp">
+
+
+    <div ui-view></div>
+
+  <!-- Main app -->
+  <script src="index.js"></script>
+
+  <!-- Controlers --> 
+  <script src="templates/home/home.js"></script>
+  <script src="templates/nav/nav.js"></script>
+</body>
+</html>
