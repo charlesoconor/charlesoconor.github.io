@@ -8,6 +8,4 @@ app.controller('homeController', ['$state', function($state){
     // follow the dot rule
     controller.data = {};
 
-    console.log('Home Controller');
-    console.log($state);
 }]);

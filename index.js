@@ -19,8 +19,14 @@ var app = angular.module('personalApp', ['ui.router'])
             url:'/home',
             templateUrl:'templates/home/home.html',
             controller:'homeController as hContr' // for now best way to use controller as syntax
+        })
+        .state('nav.projects', {
+            parent:'nav',
+            url:'/projects',
+            templateUrl:'templates/projects/projects.html',
+            controller:'projectsController as pContr' 
         });
 
-    console.log($stateProvider);
+
 });
 
